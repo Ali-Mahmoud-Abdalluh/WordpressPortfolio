@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Ali Mahmoud – Full Stack Developer</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+	<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="alternate" type="application/rss+xml" title="Ali Mahmoud » Feed" href="http://localhost/wordpress/feed/">
+<link rel="alternate" type="application/rss+xml" title="Ali Mahmoud » Comments Feed" href="http://localhost/wordpress/comments/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/style.min.css" media="all">
+<style id="wp-block-library-theme-inline-css">
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/styles.css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/all.min.css" media="all">
+<link rel="stylesheet" id="simple-line-icons-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/simple-line-icons.min.css" media="all">
+<link rel="stylesheet" id="oceanwp-style-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/style.min_002.css" media="all">
+<link rel="stylesheet" id="oceanwp-google-font-poppins-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/c60a07be40ef8f258a248a492dd87245.css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/elementor-icons.min.css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/frontend-lite.min.css" media="all">
+<link rel="stylesheet" id="swiper-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/swiper.min.css" media="all">
+<link rel="stylesheet" id="elementor-post-71-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/post-71.css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/global.css" media="all">
+<link rel="stylesheet" id="elementor-post-16-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/post-16.css" media="all">
+<link rel="stylesheet" id="popup-maker-site-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/pum-site-styles.css" media="all">
+<link rel="stylesheet" id="oe-widgets-style-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/widgets.css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/css.css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/fontawesome.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/solid.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-regular-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/regular.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/brands.min.css" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/jquery.min.js" id="jquery-core-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="http://localhost/wordpress/wp-json/"><link rel="alternate" type="application/json" href="http://localhost/wordpress/wp-json/wp/v2/pages/16"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wordpress/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.3.1">
+<link rel="canonical" href="http://localhost/wordpress/">
+<link rel="shortlink" href="http://localhost/wordpress/">
+<link rel="alternate" type="application/json+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2F&amp;format=xml">
+<meta name="generator" content="Elementor 3.16.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<!-- OceanWP CSS -->
+<style type="text/css">
+/* Header CSS */#site-header,.has-transparent-header .is-sticky #site-header,.has-vh-transparent .is-sticky #site-header.vertical-header,#searchform-header-replace{background-color:rgba(33,33,33,0)}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:200px}#searchform-dropdown input{background-color:#4e8abf}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#acb6bf}#site-navigation-wrap .dropdown-menu >li >a .owp-icon use,.oceanwp-mobile-menu-icon a .owp-icon use,#searchform-header-replace-close .owp-icon use{stroke:#acb6bf}#site-navigation-wrap .dropdown-menu >.current-menu-item >a,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a,#site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover{color:#9eb0bf}.dropdown-menu .sub-menu{min-width:171px}/* Top Bar CSS */#top-bar{padding:10px 0 10px 0}#top-bar-wrap,.oceanwp-top-bar-sticky{background-color:#212121}#top-bar-wrap{border-color:rgba(241,241,241,0)}#top-bar-wrap,#top-bar-content strong{color:#b9bcbf}#top-bar-content a,#top-bar-social-alt a{color:#ffffff}#top-bar-social li a{font-size:25px}#top-bar-social li a{padding:0 5px 0 5px}#top-bar-social li a{color:#bfbfbf}#top-bar-social li a .owp-icon use{stroke:#bfbfbf}#top-bar-social li a:hover{color:#1e73be!important}#top-bar-social li a:hover .owp-icon use{stroke:#1e73be!important}/* Footer Widgets CSS */#footer-widgets,#footer-widgets p,#footer-widgets li a:before,#footer-widgets .contact-info-widget span.oceanwp-contact-title,#footer-widgets .recent-posts-date,#footer-widgets .recent-posts-comments,#footer-widgets .widget-recent-posts-icons li .fa{color:#789bbf}/* Typography CSS */body{font-family:Poppins}
+</style></head>
+
+<body class="home page-template-default page page-id-16 wp-custom-logo wp-embed-responsive oceanwp-theme dropdown-mobile has-transparent-header no-header-border default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-71 elementor-page elementor-page-16 e--ua-firefox" itemscope="itemscope" itemtype="https://schema.org/WebPage" data-elementor-device-mode="desktop">
+
+	
+	
+	<div id="outer-wrap" class="site clr">
+
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+		
+		<div id="wrap" class="clr">
+
+			
+
+<div id="top-bar-wrap" class="clr">
+
+	<div id="top-bar" class="clr container">
+
+		
+		<div id="top-bar-inner" class="clr">
+
+			
+	<div id="top-bar-content" class="clr has-content top-bar-left">
+
+		
+		
+			
+				<span class="topbar-content">
+
+					<i class="fas fa-phone"></i> +201113101806
+				</span>
+
+				
+	</div><!-- #top-bar-content -->
+
+
+
+<div id="top-bar-social" class="clr top-bar-right">
+
+	<ul class="clr" aria-label="Social links">
+
+		<li class="oceanwp-twitter"><a href="https://twitter.com/alimahmoud94301" aria-label="Twitter (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-twitter" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-facebook"><a href="https://www.facebook.com/profile.php?id=100044055099382" aria-label="Facebook (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-facebook" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-pinterest"><a href="https://www.pinterest.com/alimahmoudabdallaemam12/" aria-label="Pinterest (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-pinterest-p" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-instagram"><a href="https://www.instagram.com/ali.m2726/" aria-label="Instagram (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-instagram" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-linkedin"><a href="https://www.linkedin.com/in/ali-mahmoud-84a78b1b4/" aria-label="LinkedIn (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-linkedin" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-github"><a href="https://github.com/Ali-Mahmoud-Abdalluh" aria-label="Github (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-github-alt" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-youtube"><a href="https://www.youtube.com/channel/UC124LaWSHmV8E6yHr_oxIRg" aria-label="Youtube (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-youtube" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-tiktok"><a href="https://www.tiktok.com/@on_shoda" aria-label="TikTok (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-tiktok" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-telegram"><a href="https://t.me/alimahmoud7599" aria-label="Telegram (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-telegram" aria-hidden="true" role="img"></i></a></li><li class="oceanwp-discord"><a href="http://discordapp.com/users/716225401092964404" aria-label="Discord (opens in a new tab)" target="_blank" rel="noopener noreferrer"><i class=" fab fa-discord" aria-hidden="true" role="img"></i></a></li>
+	</ul>
+
+</div><!-- #top-bar-social -->
+
+		</div><!-- #top-bar-inner -->
+
+		
+	</div><!-- #top-bar -->
+
+</div><!-- #top-bar-wrap -->
+
+
+				<div id="transparent-header-wrap" class="clr">
+	
+<header id="site-header" class="transparent-header effect-one clr" data-height="74" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+
+	
+					
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope="" itemtype="https://schema.org/Brand">
+
+	
+	<div id="site-logo-inner" class="clr">
+
+		<a href="http://localhost/wordpress/" class="custom-logo-link" rel="home" aria-current="page"><img src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/Screenshot-from-2023-09-13-16-34-15.png" class="custom-logo" alt="Ali Mahmoud" decoding="async" fetchpriority="high" width="541" height="127"></a>
+	</div><!-- #site-logo-inner -->
+
+	
+	
+</div><!-- #site-logo -->
+
+			<div id="site-navigation-wrap" class="clr">
+			
+			
+			
+			<nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="navigation">
+
+				<ul id="menu-main-menu" class="main-menu dropdown-menu sf-menu"><li id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item menu-item-330"><a href="http://localhost/wordpress/" class="menu-link"><span class="text-wrap">Home</span></a></li><li id="menu-item-331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-331"><a href="#about-me-section" class="menu-link"><span class="text-wrap">About Me</span></a></li><li id="menu-item-332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-332"><a href="#abilities-section" class="menu-link"><span class="text-wrap">My Abilities</span></a></li><li id="menu-item-333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-333"><a href="#hireme" class="menu-link pum-trigger" style="cursor: pointer;"><span class="text-wrap">Hire Me</span></a></li></ul>
+			</nav><!-- #site-navigation -->
+
+			
+			
+					</div><!-- #site-navigation-wrap -->
+			
+		
+	
+				
+	
+	<div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+		
+		
+		
+		<a href="http://localhost/wordpress/#mobile-menu-toggle" class="mobile-menu" aria-label="Mobile Menu">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+								<span class="oceanwp-text">Menu</span>
+				<span class="oceanwp-close-text">Close</span>
+						</a>
+
+		
+		
+		
+	</div><!-- #oceanwp-mobile-menu-navbar -->
+
+	
+
+			</div><!-- #site-header-inner -->
+
+			
+<div id="mobile-dropdown" class="clr">
+
+	<nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+		<ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item menu-item-330"><a href="http://localhost/wordpress/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-331"><a href="#about-me-section">About Me</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-332"><a href="#abilities-section">My Abilities</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-333"><a href="#hireme" class="pum-trigger" style="cursor: pointer;">Hire Me</a></li>
+</ul>
+<div id="mobile-menu-search" class="clr">
+	<form aria-label="Search this website" method="get" action="http://localhost/wordpress/" class="mobile-searchform">
+		<input aria-label="Insert search query" class="field" id="ocean-mobile-search-1" type="search" name="s" autocomplete="off" placeholder="Search">
+		<button aria-label="Submit search" type="submit" class="searchform-submit">
+			<i class=" icon-magnifier" aria-hidden="true" role="img"></i>		</button>
+					</form>
+</div><!-- .mobile-menu-search -->
+
+	</nav>
+
+</div>
+
+			
+			
+		
+		
+</header><!-- #site-header -->
+
+	</div>
+	
+			
+			<main id="main" class="site-main clr" role="main">
+
+				
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article class="single-page-article clr">
+
+	
+<div class="entry clr" itemprop="text">
+
+	
+			<div data-elementor-type="wp-page" data-elementor-id="16" class="elementor elementor-16">
+							<div class="elementor-element elementor-element-720301a e-flex e-con-boxed e-con e-parent" data-id="720301a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-090fbe6 elementor-widget elementor-widget-image" data-id="090fbe6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img decoding="async" src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/my-qcdbchgi87agbynykkx76qhd4ows6ko7xbzinxixjw.jpeg" title="ali mahmoud" alt="ali mahmoud image" class="elementor-animation-float" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-78b0ad2 elementor-widget elementor-widget-heading" data-id="78b0ad2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">Ali Mahmoud</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b3cc83b elementor-widget elementor-widget-text-editor" data-id="b3cc83b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Versatile FullStack Developer and SEO Specialist</p>						</div>
+				</div>
+		<div class="elementor-element elementor-element-52fe649 e-flex e-con-boxed e-con e-child" data-id="52fe649" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-9e1ac24 elementor-align-center elementor-widget elementor-widget-button" data-id="9e1ac24" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#about-me-section">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">about me</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f916f26 elementor-align-center elementor-widget elementor-widget-button" data-id="f916f26" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm pum-trigger" href="#hireme" style="cursor: pointer;">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">hire me</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-314319e elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-id="314319e" data-element_type="container" id="about-me-section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-20c6e6a e-con-full e-flex e-con e-child" data-id="20c6e6a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-128a67f elementor-widget elementor-widget-heading" data-id="128a67f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">ABOUT ME</h2>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4e4bf83 e-con-full e-flex e-con e-child" data-id="4e4bf83" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-f0f6a64 elementor-widget elementor-widget-text-editor" data-id="f0f6a64" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>I’m a passionate FullStack Developer and SEO Specialist. My 
+expertise spans Django, WordPress, React Native, Flutter, and SEO. I’m 
+dedicated to crafting user-friendly web experiences.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a0f0d22 elementor-widget elementor-widget-text-editor" data-id="a0f0d22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>I excel in merging design and functionality. My work focuses 
+on creating responsive, scalable solutions that stay ahead of industry 
+trends.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5da285b elementor-widget elementor-widget-text-editor" data-id="5da285b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="group w-full text-token-text-primary border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]" data-testid="conversation-turn-15"><div class="p-4 justify-center text-base md:gap-6 md:py-6 m-auto"><div class="flex flex-1 gap-4 text-base mx-auto md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl }"><div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]"><div class="flex flex-grow flex-col gap-3 max-w-full"><div class="min-h-[20px] flex flex-col items-start gap-3 overflow-x-auto whitespace-pre-wrap break-words"><div class="markdown prose w-full break-words dark:prose-invert light"><p>Collaboration
+ fuels my creativity. I enjoy working with diverse teams to bring 
+digital visions to life. Let’s connect and turn your ideas into reality.</p></div></div></div></div></div></div></div>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3f09ea8 e-con-full e-flex e-con e-child" data-id="3f09ea8" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-cc8c58e elementor-widget elementor-widget-progress" data-id="cc8c58e" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-progress{text-align:left}.elementor-progress-wrapper{position:relative;background-color:#eee;color:#fff;height:100%;border-radius:2px}.elementor-progress-bar{display:flex;background-color:#69727d;width:0;font-size:11px;height:30px;line-height:30px;border-radius:2px;transition:width 1s ease-in-out}.elementor-progress-text{flex-grow:1;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;padding-left:15px}.elementor-progress-percentage{padding-right:15px}.elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar{background-color:#5bc0de}.elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar{background-color:#5cb85c}.elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar{background-color:#f0ad4e}.elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar{background-color:#d9534f}.elementor-progress .elementor-title{display:block}@media (max-width:767px){.elementor-progress-text{padding-left:10px}}.e-con-inner .elementor-progress-wrapper,.e-con .elementor-progress-wrapper{height:auto}</style>
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-valuetext="100% (WordPress)">
+			<div class="elementor-progress-bar" data-max="100" style="width: 100%;">
+				<span class="elementor-progress-text">WordPress</span>
+									<span class="elementor-progress-percentage">100%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f4c94b6 elementor-widget elementor-widget-progress" data-id="f4c94b6" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="96" aria-valuetext="96% (React Native)">
+			<div class="elementor-progress-bar" data-max="96" style="width: 96%;">
+				<span class="elementor-progress-text">React Native</span>
+									<span class="elementor-progress-percentage">96%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b0b90a3 elementor-widget elementor-widget-progress" data-id="b0b90a3" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" aria-valuetext="90% (Django)">
+			<div class="elementor-progress-bar" data-max="90" style="width: 90%;">
+				<span class="elementor-progress-text">Django</span>
+									<span class="elementor-progress-percentage">90%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2964396 elementor-widget elementor-widget-progress" data-id="2964396" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95" aria-valuetext="95% (Flutter)">
+			<div class="elementor-progress-bar" data-max="95" style="width: 95%;">
+				<span class="elementor-progress-text">Flutter</span>
+									<span class="elementor-progress-percentage">95%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f6ae111 elementor-widget elementor-widget-progress" data-id="f6ae111" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" aria-valuetext="90% (UI / UX)">
+			<div class="elementor-progress-bar" data-max="90" style="width: 90%;">
+				<span class="elementor-progress-text">UI / UX</span>
+									<span class="elementor-progress-percentage">90%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c3ad4dc elementor-widget elementor-widget-progress" data-id="c3ad4dc" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-valuetext="100% (SEO)">
+			<div class="elementor-progress-bar" data-max="100" style="width: 100%;">
+				<span class="elementor-progress-text">SEO</span>
+									<span class="elementor-progress-percentage">100%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0d7df53 elementor-hidden-desktop elementor-hidden-tablet e-flex e-con-boxed e-con e-parent" data-id="0d7df53" data-element_type="container" id="about-me-section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6aca7da e-con-full e-flex e-con e-child" data-id="6aca7da" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-efc2191 elementor-widget elementor-widget-heading" data-id="efc2191" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">ABOUT ME</h2>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c1c6ce8 e-con-full e-flex e-con e-child" data-id="c1c6ce8" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-990f396 elementor-widget elementor-widget-text-editor" data-id="990f396" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>I’m a passionate FullStack Developer and SEO Specialist. My 
+expertise spans Django, WordPress, React Native, Flutter, and SEO. I’m 
+dedicated to crafting user-friendly web experiences.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d6aeffb elementor-widget elementor-widget-text-editor" data-id="d6aeffb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>I excel in merging design and functionality. My work focuses 
+on creating responsive, scalable solutions that stay ahead of industry 
+trends.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-533eda3 elementor-widget elementor-widget-text-editor" data-id="533eda3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="group w-full text-token-text-primary border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]" data-testid="conversation-turn-15"><div class="p-4 justify-center text-base md:gap-6 md:py-6 m-auto"><div class="flex flex-1 gap-4 text-base mx-auto md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl }"><div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]"><div class="flex flex-grow flex-col gap-3 max-w-full"><div class="min-h-[20px] flex flex-col items-start gap-3 overflow-x-auto whitespace-pre-wrap break-words"><div class="markdown prose w-full break-words dark:prose-invert light"><p>Collaboration
+ fuels my creativity. I enjoy working with diverse teams to bring 
+digital visions to life. Let’s connect and turn your ideas into reality.</p></div></div></div></div></div></div></div>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8d22861 e-con-full e-flex e-con e-child" data-id="8d22861" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-1f443b8 elementor-widget elementor-widget-progress" data-id="1f443b8" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-valuetext="100% (WordPress)">
+			<div class="elementor-progress-bar" data-max="100" style="width: 100%;">
+				<span class="elementor-progress-text">WordPress</span>
+									<span class="elementor-progress-percentage">100%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-732173c elementor-widget elementor-widget-progress" data-id="732173c" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="96" aria-valuetext="96% (React Native)">
+			<div class="elementor-progress-bar" data-max="96" style="width: 96%;">
+				<span class="elementor-progress-text">React Native</span>
+									<span class="elementor-progress-percentage">96%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5910046 elementor-widget elementor-widget-progress" data-id="5910046" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" aria-valuetext="90% (Django)">
+			<div class="elementor-progress-bar" data-max="90" style="width: 90%;">
+				<span class="elementor-progress-text">Django</span>
+									<span class="elementor-progress-percentage">90%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5d6b36e elementor-widget elementor-widget-progress" data-id="5d6b36e" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95" aria-valuetext="95% (Flutter)">
+			<div class="elementor-progress-bar" data-max="95" style="width: 95%;">
+				<span class="elementor-progress-text">Flutter</span>
+									<span class="elementor-progress-percentage">95%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c805939 elementor-widget elementor-widget-progress" data-id="c805939" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" aria-valuetext="90% (UI / UX)">
+			<div class="elementor-progress-bar" data-max="90" style="width: 90%;">
+				<span class="elementor-progress-text">UI / UX</span>
+									<span class="elementor-progress-percentage">90%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8db2163 elementor-widget elementor-widget-progress" data-id="8db2163" data-element_type="widget" data-widget_type="progress.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-valuetext="100% (SEO)">
+			<div class="elementor-progress-bar" data-max="100" style="width: 100%;">
+				<span class="elementor-progress-text">SEO</span>
+									<span class="elementor-progress-percentage">100%</span>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-33f4f53 e-flex e-con-boxed e-con e-parent" data-id="33f4f53" data-element_type="container" id="abilities-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a9c6576 elementor-widget elementor-widget-heading" data-id="a9c6576" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What I Can Do</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d1be682 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="d1be682" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-dbd598b e-flex e-con-boxed e-con e-parent" data-id="dbd598b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-48fff36 e-con-full e-flex e-con e-child" data-id="48fff36" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-0ba3c4c elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="0ba3c4c" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i aria-hidden="true" class="fas fa-laptop-code"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Web Design and Development					</span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-27e3d56 e-con-full e-flex e-con e-child" data-id="27e3d56" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-a6024a0 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="a6024a0" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i aria-hidden="true" class="far fa-chart-bar"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Search Engine Optimization					</span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4696dd9 e-con-full e-flex e-con e-child" data-id="4696dd9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-aa6faef elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="aa6faef" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i aria-hidden="true" class="far fa-file-image"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						User Interface Designer / User Experence Designer					</span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7d8aa3d e-flex e-con-boxed e-con e-parent" data-id="7d8aa3d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1982a9d elementor-widget elementor-widget-heading" data-id="1982a9d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Follow Me</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-425e0b0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="425e0b0" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-d797ee6 e-flex e-con-boxed e-con e-parent" data-id="d797ee6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-cae2a2a elementor-shape-circle e-grid-align-mobile-center elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="cae2a2a" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#69727d;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#69727d}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-8180329" href="https://www.facebook.com/profile.php?id=100044055099382" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-grow elementor-repeater-item-37217af" href="https://twitter.com/alimahmoud94301" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-animation-grow elementor-repeater-item-b193151" href="https://api.whatsapp.com/send?phone=201113101806" target="_blank">
+						<span class="elementor-screen-only">Whatsapp</span>
+						<i class="fab fa-whatsapp"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-91804b5" href="https://www.instagram.com/ali.m2726/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-tiktok elementor-animation-grow elementor-repeater-item-d34034a" href="https://www.tiktok.com/@on_shoda" target="_blank">
+						<span class="elementor-screen-only">Tiktok</span>
+						<i class="fab fa-tiktok"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-c6d3827" href="https://www.linkedin.com/in/ali-mahmoud-84a78b1b4/" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i class="fab fa-linkedin"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8a7cb86 e-flex e-con-boxed e-con e-parent" data-id="8a7cb86" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-dfb4ce2 elementor-widget elementor-widget-heading" data-id="dfb4ce2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Need a Professional Developer</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ae05116 elementor-align-center elementor-widget elementor-widget-button" data-id="ae05116" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm pum-trigger" href="#hireme" style="cursor: pointer;">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Hire Me</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+							</div>
+		
+	
+</div>
+
+</article>
+
+				
+			</div><!-- #content -->
+
+			
+		</div><!-- #primary -->
+
+		
+	</div><!-- #content-wrap -->
+
+	
+
+	</main><!-- #main -->
+
+	
+	
+	
+		
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+
+	
+	<div id="footer-inner" class="clr">
+
+		
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+					<div class="footer-box span_1_of_2 col col-1">
+				<div id="text-3" class="footer-widget widget_text clr"><h4 class="widget-title">About me</h4>			<div class="textwidget"><p>I
+ am Ali Mahmoud, a seasoned full-stack developer hailing from Egypt. 
+With over eight years of experience, I specialize in various 
+technologies including Django, Flutter, React Native, and WordPress. My 
+commitment to excellence has driven my career since 2015.</p>
+</div>
+		</div>			</div><!-- .footer-one-box -->
+
+							<div class="footer-box span_1_of_2 col col-2">
+					<div id="text-4" class="footer-widget widget_text clr"><h4 class="widget-title">Contact</h4>			<div class="textwidget"><ul>
+<li><strong>Phone Number</strong><br>
+<em>+201113101806</em></li>
+<li><strong>Email</strong><br>
+<em>alimahmoudabdallaemam12@gmail.com</em></li>
+</ul>
+</div>
+		</div>				</div><!-- .footer-one-box -->
+				
+			
+			
+			
+	</div><!-- .container -->
+
+	
+</div><!-- #footer-widgets -->
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				Copyright 2023 - Ali Mahmoud			</div><!-- #copyright -->
+
+			
+	</div><!-- #footer-bottom-inner -->
+
+	
+</div><!-- #footer-bottom -->
+
+
+	</div><!-- #footer-inner -->
+
+	
+</footer><!-- #footer -->
+
+	
+	
+</div><!-- #wrap -->
+
+
+</div><!-- #outer-wrap -->
+
+
+
+<a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right" style="opacity: 0; display: none;"><i class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
+
+
+
+
+<div id="pum-291" class="pum pum-overlay pum-theme-284 pum-theme-enterprise-blue popmake-overlay click_open" data-popmake="{&quot;id&quot;:291,&quot;slug&quot;:&quot;hireme&quot;,&quot;theme_id&quot;:284,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;a[href=\&quot;#hireme\&quot;]&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-modal="false" aria-labelledby="pum_popup_title_291">
+
+	<div id="popmake-291" class="pum-container popmake theme-284 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+							<div id="pum_popup_title_291" class="pum-title popmake-title">
+				Hire Me			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<p>Please submit the form for hiring me</p>
+
+<div class="wpcf7 js" id="wpcf7-f311-o1" dir="ltr" lang="en-US">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/wordpress/#wpcf7-f311-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="311">
+<input type="hidden" name="_wpcf7_version" value="5.8">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f311-o1">
+<input type="hidden" name="_wpcf7_container_post" value="0">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+<p><label> Your name<br>
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" type="text" name="your-name"></span> </label>
+</p>
+<p><label> Your email<br>
+<span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" autocomplete="email" aria-required="true" aria-invalid="false" type="email" name="your-email"></span> </label>
+</p>
+<p><label> Your Business Name<br>
+<span class="wpcf7-form-control-wrap" data-name="buisnessname"><input size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" type="text" name="buisnessname"></span></label>
+</p>
+<p><label> Select Service<br>
+<span class="wpcf7-form-control-wrap" data-name="selected-service"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="selected-service"><option value="Frontend" selected="selected">Frontend</option><option value="Backend">Backend</option><option value="Fullstack">Fullstack</option><option value="Mobile App">Mobile App</option><option value="SEO">SEO</option></select></span></label>
+</p>
+<p><label> Subject<br>
+<span class="wpcf7-form-control-wrap" data-name="your-subject"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" type="text" name="your-subject"></span> </label>
+</p>
+<p><label> Your message (optional)<br>
+<span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
+</p>
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Submit"><span class="wpcf7-spinner"></span>
+</p><input type="hidden" class="wpcf7-pum" value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}"><div class="wpcf7-response-output" aria-hidden="true"></div>
+<input type="hidden" name="pum_form_popup_id" value="291"></form>
+</div>
+
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			×			</button>
+		
+	</div>
+
+</div>
+<link rel="stylesheet" id="e-animations-css" href="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/animations.min.css" media="all">
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/index.js" id="swv-js"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"http:\/\/localhost\/wordpress\/wp-json\/","namespace":"contact-form-7\/v1"}};
+var wpcf7 = {"api":{"root":"http:\/\/localhost\/wordpress\/wp-json\/","namespace":"contact-form-7\/v1"}};
+</script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/index_002.js" id="contact-form-7-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script id="oceanwp-main-js-extra">
+var oceanwpLocalize = {"nonce":"19dad9ac90","isRTL":"","menuSearchStyle":"disabled","mobileMenuSearchStyle":"disabled","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customScrollOffset":"0","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php","oe_mc_wpnonce":"8ff43fe665"};
+</script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/theme.min.js" id="oceanwp-main-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/drop-down-mobile-menu.min.js" id="oceanwp-drop-down-mobile-menu-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/magnific-popup.min.js" id="ow-magnific-popup-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/ow-lightbox.min.js" id="oceanwp-lightbox-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/flickity.pkgd.min.js" id="ow-flickity-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/ow-slider.min.js" id="oceanwp-slider-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/scroll-effect.min.js" id="oceanwp-scroll-effect-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/scroll-top.min.js" id="oceanwp-scroll-top-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/select.min.js" id="oceanwp-select-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/core.min.js" id="jquery-ui-core-js"></script>
+<script id="popup-maker-site-js-extra">
+var pum_vars = {"version":"1.18.2","pm_dir_url":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/popup-maker\/","ajaxurl":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php","restapi":"http:\/\/localhost\/wordpress\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"282","debug_mode":"","disable_tracking":"","home_url":"\/wordpress\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_route":"analytics","analytics_api":"http:\/\/localhost\/wordpress\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-291":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":"a[href=\"#hireme\"]"}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"284","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"enterprise-blue","id":291,"slug":"hireme"}};
+</script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/pum-site-scripts.js" id="popup-maker-site-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"landing-pages":true,"e_global_styleguide":true},"urls":{"assets":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":16,"title":"Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer","excerpt":"","featuredImage":false}};
+</script>
+<script src="Ali%20Mahmoud%20%E2%80%93%20Full%20Stack%20Developer_files/frontend.min.js" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+
+
+</body></html>
